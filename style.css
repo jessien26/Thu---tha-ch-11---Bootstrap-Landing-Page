@@ -1,0 +1,161 @@
+
+.travel-bg{
+    background-image: url(./at_ho-nuoc-moraine-dep-nhat-the-gioi-o-canada_cnid-842_421b02fd579d89b5a6a14aa1065b89b3.jpeg);
+    height: 700px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.travel-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+.travel-text > h2{
+    font-size: 2rem;
+}
+.travel-text button{
+    border: solid 1px white;
+    background-color: transparent;
+    color: white;
+}
+
+
+.img{
+    width: inherit;
+
+}
+.body-p{
+    text-align: center;
+}
+.fa-solid{
+    display: flex !important;
+    justify-content: center;
+    font-size: 40px;
+    color: green;
+}
+.body-h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.main-topic{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0px;
+}
+.readmore{
+    background-color: rgb(84, 84, 236);
+    border-radius: 8px;
+    padding: 10px
+}
+.img-gallery{
+    width: 100%;
+}
+.container-gallery > div {
+    margin: 2% 2%;
+}
+.container-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gallery-text{
+    display: flex;
+    flex-direction: column;
+}
+.gallery-text > button{
+    width: fit-content;
+    padding: 5px;
+}
+.gallery-text > p{
+    font-size: 15px;
+    margin: 10px 10px;
+}
+
+.span-i-gallery i{
+    display: inline-block !important;
+    font-size: 20px;
+}
+.icon-contact-us, .footer-i{
+    font-size: 20px;
+    color: black;
+}
+
+.contact-us-info > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact-us-info > p{
+    margin-left: 10px;
+}
+.gmap_iframe{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.submit{
+    text-align: center;
+}
+.submit-i{
+    width: fit-content;
+    left: 2px;
+    font-size: 20px;
+}
+.submit > form > input{
+    width: 100%;
+}
+.get-connect{
+    width: fit-content;
+    padding-left: 20px;
+}
+.container-get-connected{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 1%;
+}
+.container-get-connected-i{
+    display: flex;
+    justify-content: flex-end;
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.container-footer > span{
+    padding: 1% 0%;
+}
+.contact > span{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.container-footer > span > h4{
+    align-content: center;
+}
+.company-name p{
+    font-size: 15px;
+}
+.footer{
+    text-align: center;
+}
+.contact{
+    align-items: center;
+}
+.form-submit{
+    text-align: center;
+    width: fit-content;
+    background-color: lightskyblue;
+    color: white;
+    margin: 4% 0px;
+    text-align: center;
+    border: none;
+}
