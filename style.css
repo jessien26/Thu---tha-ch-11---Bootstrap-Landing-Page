@@ -23,11 +23,8 @@
     background-color: transparent;
     color: white;
 }
-
-
 .img{
     width: inherit;
-
 }
 .body-p{
     text-align: center;
@@ -85,7 +82,6 @@
     font-size: 20px;
     color: black;
 }
-
 .contact-us-info > div{
     display: flex;
     flex-direction: row;
